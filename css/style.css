@@ -1,0 +1,22 @@
+:root { --pink:#ec4899; --bg:#fff; --fg:#1f2937; --muted:#6b7280; --card:#f9fafb; }
+* { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:system-ui,sans-serif; background:var(--bg); color:var(--fg); line-height:1.6; }
+.hero { text-align:center; padding:4rem 1.5rem; background:linear-gradient(135deg,#fce7f3,#fff); }
+.logo { border-radius:24px; box-shadow:0 8px 24px rgba(0,0,0,.1); }
+.hero h1 { font-size:3rem; margin:.5rem 0; color:var(--pink); }
+.tagline { color:var(--muted); font-size:1.1rem; max-width:600px; margin:0 auto 1.5rem; }
+.actions { display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; }
+.btn { padding:.75rem 1.5rem; border-radius:999px; text-decoration:none; font-weight:600; }
+.btn.primary { background:var(--pink); color:#fff; }
+.btn.ghost { border:2px solid var(--pink); color:var(--pink); }
+.version { margin-top:1rem; color:var(--muted); font-size:.9rem; }
+.features { padding:3rem 1.5rem; max-width:900px; margin:0 auto; }
+.features h2 { text-align:center; margin-bottom:2rem; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1rem; }
+.card { background:var(--card); padding:1.5rem; border-radius:16px; }
+.card h3 { color:var(--pink); margin-bottom:.5rem; }
+.install { padding:2rem 1.5rem; max-width:700px; margin:0 auto; }
+.install ol { padding-left:1.5rem; }
+.install li { margin:.5rem 0; }
+footer { text-align:center; padding:2rem; color:var(--muted); }
+footer a { color:var(--pink); }
